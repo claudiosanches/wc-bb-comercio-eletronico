@@ -1,6 +1,6 @@
 <?php
 /**
- * Correios functions.
+ * BB Comercio Eletronico functions.
  *
  * @package WC_BB_Comercio_Eletronico/Functions
  * @since   1.0.0
