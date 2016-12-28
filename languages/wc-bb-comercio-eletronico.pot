@@ -1,0 +1,245 @@
+# Copyright (C) 2016 Claudio Sanches
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Banco do Brasil Comércio Eletrônico for WooCommerce "
+"0.0.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wc-bb-comercio-eletronico\n"
+"POT-Creation-Date: 2016-12-28 02:44:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/views/html-admin-help-message.php:14
+msgid ""
+"Help us keep the %s plugin free making a donation or rate %s on "
+"WordPress.org. Thank you in advance!"
+msgstr ""
+
+#: includes/admin/views/html-admin-help-message.php:14
+#: includes/admin/views/html-notice-missing-ecfb.php:22
+#: includes/admin/views/html-notice-woocommerce-missing.php:22
+msgid "Banco do Brasil Com&eacute;rcio Eletr&ocirc;nico for WooCommerce"
+msgstr ""
+
+#: includes/admin/views/html-admin-help-message.php:15
+msgid "Make a donation"
+msgstr ""
+
+#: includes/admin/views/html-admin-help-message.php:15
+msgid "Make a review"
+msgstr ""
+
+#: includes/admin/views/html-notice-currency-not-supported.php:15
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/admin/views/html-notice-currency-not-supported.php:15
+msgid "Currency <code>%s</code> is not supported. Works only with Brazilian Real."
+msgstr ""
+
+#: includes/admin/views/html-notice-missing-ecfb.php:22
+msgid "depends on the last version of Extra Checkout Fields for Brazil to work!"
+msgstr ""
+
+#: includes/admin/views/html-notice-missing-ecfb.php:25
+msgid "Active Extra Checkout Fields for Brazil"
+msgstr ""
+
+#: includes/admin/views/html-notice-missing-ecfb.php:33
+msgid "Install Extra Checkout Fields for Brazil"
+msgstr ""
+
+#: includes/admin/views/html-notice-woocommerce-missing.php:22
+msgid "depends on the last version of WooCommerce to work!"
+msgstr ""
+
+#: includes/admin/views/html-notice-woocommerce-missing.php:25
+msgid "Active WooCommerce"
+msgstr ""
+
+#: includes/admin/views/html-notice-woocommerce-missing.php:34
+msgid "Install WooCommerce"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:33
+msgid "BB Com&eacute;rcio Eletr&ocirc;nico - Bank Slip"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:34
+msgid ""
+"Accept payments by bank slip using your account on Bando do Brasil "
+"Com&eacute;rcio Eletr&ocirc;nico."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:77
+msgid "Enable Bando do Brasil - Bank Slip"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:81
+msgid "Title"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:83
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:85
+msgid "Bank Slip"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:88
+msgid "Description"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:90
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:92
+msgid "Pay with bank slip."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:95
+msgid "Integration Settings"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:100
+msgid "Agreement Code"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:102
+msgid ""
+"Please enter your Agreement Code for eCommerce provided by the your bank. "
+"This is needed in order to take payment."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:110
+msgid "Collection Agreement Code"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:112
+msgid ""
+"Please enter your Collection Agreement Code if necessary. This may be "
+"needed in order to take payment."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:117
+msgid "Integration Behavior"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:122
+msgid "Days to Pay"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:124
+msgid "Please enter how many consecutive days customers will have to pay."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:134
+msgid "Instructions"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:136
+msgid ""
+"Instructions for the customer, which will be displayed on the bank slip. "
+"Can not be more than 480 characters."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:141
+msgid "Gateway Testing"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:146
+msgid "Debug Log"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:148
+msgid "Enable logging"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:150
+msgid "Log events of this payment method, you can check this log in %s."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:150
+msgid "System Status &gt; Logs"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:174
+msgid "Missing CPF or CNPJ."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:193
+msgid "BB Com&eacute;rcio Eletr&ocirc;nico: Awaiting payment."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:221
+msgid "You can no longer make the payment for order %s."
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:222
+msgid "Payment method expired"
+msgstr ""
+
+#: includes/wc-class-bb-bank-slip-gateway.php:232
+msgid "Invalid request!"
+msgstr ""
+
+#: includes/wc-class-bb-my-account.php:45
+#: templates/bank-slip/emails/html-instructions.php:20
+#: templates/bank-slip/payment-instructions.php:18
+msgid "Print bank slip"
+msgstr ""
+
+#: templates/bank-slip/emails/html-instructions.php:15
+#: templates/bank-slip/emails/plain-instructions.php:14
+msgid "Payment"
+msgstr ""
+
+#: templates/bank-slip/emails/html-instructions.php:18
+#: templates/bank-slip/emails/plain-instructions.php:18
+#: templates/bank-slip/payment-instructions.php:19
+msgid "Please use the link below get your bank slip:"
+msgstr ""
+
+#: templates/bank-slip/emails/html-instructions.php:22
+#: templates/bank-slip/emails/plain-instructions.php:26
+#: templates/bank-slip/payment-instructions.php:21
+msgid "After we receive the payment confirmation, your order will be processed."
+msgstr ""
+
+#: wc-bb-comercio-eletronico.php:148
+msgid "Bank Slip Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Banco do Brasil Comércio Eletrônico for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/claudiosanches/wc-bb-comercio-eletronico"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds Banco do Brasil Comércio Eletrônico payment methods to your "
+"WooCommerce store."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Claudio Sanches"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://claudiosmweb.com"
+msgstr ""
