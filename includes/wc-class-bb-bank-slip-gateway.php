@@ -147,7 +147,7 @@ class WC_BB_Bank_Slip_Gateway extends WC_Payment_Gateway {
 				'type'        => 'checkbox',
 				'label'       => __( 'Enable logging', 'wc-bb-comercio-eletronico' ),
 				'default'     => 'no',
-				'description' => sprintf( __( 'Log Bando do Brasil events, you can check this log in %s.', 'wc-bb-comercio-eletronico' ), '<a href="' . esc_url( admin_url( 'admin.php?page=wc-status&tab=logs&log_file=' . esc_attr( $this->id ) . '-' . sanitize_file_name( wp_hash( $this->id ) ) . '.log' ) ) . '">' . __( 'System Status &gt; Logs', 'wc-bb-comercio-eletronico' ) . '</a>' ),
+				'description' => sprintf( __( 'Log events of this payment method, you can check this log in %s.', 'wc-bb-comercio-eletronico' ), '<a href="' . esc_url( admin_url( 'admin.php?page=wc-status&tab=logs&log_file=' . esc_attr( $this->id ) . '-' . sanitize_file_name( wp_hash( $this->id ) ) . '.log' ) ) . '">' . __( 'System Status &gt; Logs', 'wc-bb-comercio-eletronico' ) . '</a>' ),
 			),
 		);
 	}

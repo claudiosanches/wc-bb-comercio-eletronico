@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <p class="order_details">
 	<?php esc_html_e( 'Please use the link below get your bank slip:', 'wc-bb-comercio-eletronico' ); ?>
 	<br />
-	<a class="button" href="<?php echo esc_url( $url ); ?>" target="_blank"><?php esc_html_e( 'Pay order', 'wc-bb-comercio-eletronico' ); ?></a>
+	<a class="button" href="<?php echo esc_url( $url ); ?>" target="_blank"><?php esc_html_e( 'Print bank slip', 'wc-bb-comercio-eletronico' ); ?></a>
 	<br />
 	<?php esc_html_e( 'After we receive the payment confirmation, your order will be processed.', 'wc-bb-comercio-eletronico' ); ?>
 </p>

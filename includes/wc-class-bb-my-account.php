@@ -42,7 +42,7 @@ class WC_BB_My_Account {
 
 		$actions[] = array(
 			'url'  => wc_bb_get_bank_slip_url( _wc_bb_get_order_meta( $order, 'order_key' ) ),
-			'name' => __( 'Print Bank Slip', 'wc-bb-comercio-eletronico' ),
+			'name' => __( 'Print bank slip', 'wc-bb-comercio-eletronico' ),
 		);
 
 		return $actions;
